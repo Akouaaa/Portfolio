@@ -1,3 +1,4 @@
+/* ****************Barre de navigation************ */
 .navbar {
     padding: 1.2rem 0;
     z-index: auto;
@@ -20,7 +21,7 @@
     padding: 0.5rem O.75rem;
     position: relative;
     display: block;
-    }
+    } 
 
 /* .whitebar ::after {
 color: white;
@@ -38,26 +39,38 @@ border: 3px solid turquoise;
     width: 20px;
     margin: 20px;
     padding: 5px;
-    border: 3px solid turquoise;
+    border: 3px solid #4BBAB1;
     border-radius: 10px;
     text-align: center;
-    background-color: turquoise;
+    background-color: #4BBAB1;
+    box-shadow: white 8px 8px;
+    transition: transform .4s;
     }
 
-.perfectgray {
-    background-color: #f4f4f4;
+.home-tab:hover .navbar-menu {
+    transform: scale(1.05); 
+    background: red;
 }
 
+.home-tab {
+    transition: 0,3s;
+    color: #F3F3F3;
+}
 
+/* ************body*********** */
 
+.perfectgray {
+    background-color: #f0f0f0;
+}
 
 .hero-body {
     display: flex;
     justify-content: center;
 }
 
+/* ************Partie bio********* */
+
 .bio-title {
-   
     text-align: center;
     width: 500px;
     height: 500px;
@@ -82,20 +95,23 @@ border: 3px solid turquoise;
     width: 150px;
 }
 
+
 .line {
     width: 90%;
     height: 2px;
-    border: 1px solid turquoise;
+    border: 1px solid #4BBAB1;
     margin: auto;
-    background-color: turquoise;
+    background-color: #4BBAB1;
     border-radius: 10px;
 }
+
+/* ***************lien vers les réseaux sociaux************** */
 
 .flexbox-container {
     display: flex;
     width: 400 px;
     height: 100px;
-    border: 3px solid turquoise;
+    border: 3px solid #4BBAB1;
     margin-bottom: 30px;
     border-radius: 20px;
 }
@@ -103,7 +119,7 @@ border: 3px solid turquoise;
 .flexbox-item {
     width: 200px;
     margin: 10px;
-    border: 3px solid turquoise;
+    border: 3px solid #4BBAB1;
     background-color: white;
     border-radius: 20px;
 }
@@ -133,6 +149,8 @@ border: 3px solid turquoise;
     flex-grow: 1;
 }
 
+/* ********** Bottom "Réalisons vos projets et CV en ligne"********* */
+
 .flexbox-containeer {
     display: flex;
     justify-content: space-between;
@@ -140,18 +158,30 @@ border: 3px solid turquoise;
     height: 100px;
     margin-bottom: 30px;
     border-radius: 20px;
-    align-items: center;
+    align-items: center; 
 }
+
+.flexbox-iteem a {
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .flexbox-iteem-1 {
     color: white;
     width: 300px;
     height: 30px;
     margin-left: 25px 60px;
     padding: 5px;
-    border: 3px solid turquoise;
+    border: 3px solid #4BBAB1;
     border-radius: 10px;
-    background-color: turquoise;
+    background-color: #4BBAB1;
     text-align: center;
+    box-shadow: white 8px 8px;
 }
 
 .flexbox-iteem-2 {
@@ -160,12 +190,21 @@ border: 3px solid turquoise;
     height: 30px;
     margin: 20px;
     padding: 5px;
-    border: 3px solid turquoise;
+    border: 3px solid #4bbab1;
     border-radius: 10px;
-    background-color: turquoise;
+    background-color: #4bbab1;
     text-align: center;
+    box-shadow: white 8px 8px;
 }
 
+.line1 {
+    width: 90%;
+    height: 2px;
+    border: 1px solid #4BBAB1;
+    margin: auto;
+    background-color: #4BBAB1;
+    border-radius: 10px;
+}
 /* .flexbox-containeer
 {
     display: flex;
@@ -198,102 +237,361 @@ border: 3px solid turquoise;
     flex-grow: 1;
 } */
 
-.flexbox-containeeer
-{
+/* ******************My skills********* */
+
+.skills-tittle {
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    border: 3px solid #4BBAB1; 
+    margin: auto;
+    margin-top: 60px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+    align-content: center;
+    display: grid;
+}
+
+.skills-tittle h2 {
+    margin-bottom: 10px;
+}
+
+.flexbox-containeeer {
     display: flex;
     width: 400 px;
     height: auto;
-    color: aqua;
-    border: 3px solid turquoise;
-    margin-bottom: 30px;
+    /* border: 3px solid #4BBAB1; */
+    margin-bottom: 100px;
+    margin-top: 100px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: #4BBAB1 8px 8px;
 }
 
 .flexbox-iteeem {
     width: 200px;
     margin: 10px;
-    border: 3px solid turquoise;
+    border: 1px solid #4BBAB1;
     background-color: white;
-    
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
 }
 
+.flexbox-iteeem ul{
+    list-style: none;
+}
+
+.list-title {
+    color: #4BBAB1;
+}
+
+.list2-title {
+    color: #4BBAB1;
+    ;
+}
 .flexbox-iteeem-1{
-    min-height: 100px;
+    min-height: 400px;
     flex-grow: 1;
 }
 
 .flexbox-iteeem-2{
-    min-height: 200px;
+    min-height: 400px;
     flex-grow: 1;
 }
 
 .flexbox-iteeem-3{
-    min-height: 300px;
+    min-height: 400px;
     flex-grow: 1;
 }
 
-.flexbox-containeeeer
-{
+.line2 {
+    width: 90%;
+    height: 2px;
+    border: 1px solid #4BBAB1;
+    margin: auto;
+    background-color: #4BBAB1;
+    border-radius: 10px;
+}
+/* *************Mes projets******** */
+
+.projects-tittle {
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    border: 3px solid #4BBAB1; 
+    margin: auto;
+    margin-top: 60px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+    align-content: center;
+}
+
+.flexbox-containeeeer {
     display: flex;
     width: 400 px;
     height: auto;
-    color: aqua;
-    border: 3px solid turquoise;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    border-radius: 10px;
+    margin: 100px;
 }
 
 .flexbox-iteeeem {
-    width: 200px;
+    width: 300px;
     margin: 10px;
-    border: 3px solid turquoise;
+    border: 1px solid #4BBAB1;
     background-color: white;
+    border-radius: 10px;
 }
 
 .flexbox-iteeeem-1{
-    min-height: 100px;
+    min-height: 200px;
     flex-grow: 1;
+    box-shadow: #4BBAB1 8px 8px;
 }
 
 .flexbox-iteeeem-2{
     min-height: 200px;
     flex-grow: 1;
+    box-shadow: #4BBAB1 8px 8px;
 }
 
 .flexbox-iteeeem-3{
-    min-height: 300px;
+    min-height: 200px;
     flex-grow: 1;
+    box-shadow: #4BBAB1 8px 8px;
 }
 
-.flexbox-containeeeeer
+.flexbox-iteeeem-4 {
+    min-height: 200px;
+    flex-grow: 1;
+    box-shadow: #4BBAB1 8px 8px;
+}
 
-{
+.flexbox-iteeeem-5 {
+    min-height: 200px;
+    flex-grow: 1;
+    box-shadow: #4BBAB1 8px 8px;
+}
+
+.flexbox-iteeeem-6 {
+    min-height: 200px;
+    flex-grow: 1;
+    box-shadow: #4BBAB1 8px 8px;
+}
+/* ****************Mon blog******************* */
+
+.blog-tittle {
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    margin: auto;
+    margin-top: 60px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+    align-content: center;
+}
+.flexbox-containeeeeer {
     display: flex;
     width: 400 px;
     height: auto;
-    color: aqua;
-    border: 3px solid turquoise;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    border-radius: 10px;
+    margin: 100px;
 }
 
 .flexbox-iteeeeem {
     width: 200px;
     margin: 10px;
-    border: 3px solid turquoise;
+    border: 1px solid #4BBAB1;
     background-color: white;
+    border-radius: 10px;
 }
 
 .flexbox-iteeeeem-1{
-    min-height: 100px;
+    min-height: 200px;
     flex-grow: 1;
+    box-shadow: #4BBAB1 8px 8px;
 }
 
 .flexbox-iteeeeem-2{
     min-height: 200px;
     flex-grow: 1;
+    box-shadow: #4BBAB1 8px 8px;
 }
 
 .flexbox-iteeeeem-3{
-    min-height: 300px;
+    min-height: 200px;
     flex-grow: 1;
+    box-shadow: #4BBAB1 8px 8px;
+}
+
+.flexbox-iteeeeem-4{
+    min-height: 200px;
+    flex-grow: 1;
+    box-shadow: #4BBAB1 8px 8px;
+}
+
+.flexbox-iteeeeem-5{
+    min-height: 200px;
+    flex-grow: 1;
+    box-shadow: #4BBAB1 8px 8px;
+}
+
+.line3 {
+    width: 90%;
+    height: 2px;
+    border: 1px solid #4BBAB1;
+    margin: auto;
+    background-color: #4BBAB1;
+    border-radius: 10px;
+}
+
+/* ***************Certifications************** */
+
+.flexbox-containeeeeeer {
+    display: flex;
+    width: 400 px;
+    height: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    border-radius: 10px;
+    margin: 100px;
+}
+.flexbox-iteeeeeem {
+    width: 200px;
+    margin: 10px;
+    border: 1px solid #4BBAB1;
+    background-color: white;
+    border-radius: 10px;
+}
+.flexbox-iteeeeeem-1{
+    min-height: 200px;
+    flex-grow: 1;
+}
+
+.flexbox-iteeeeeem-2{
+    min-height: 200px;
+    flex-grow: 1;
+}
+
+.flexbox-iteeeeeem-3{
+    min-height: 200px;
+    flex-grow: 1;
+}
+
+/* ***************References********** */
+
+.flexbox-containeeeeeeer {
+    display: flex;
+    width: 400 px;
+    height: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    border-radius: 10px;
+    margin: 100px;
+}
+.flexbox-iteeeeeeem {
+    width: 200px;
+    margin: 10px;
+    border: 1px solid #4BBAB1;
+    background-color: white;
+    border-radius: 100px;
+}
+.flexbox-iteeeeeeem-1{
+    min-height: 200px;
+    flex-grow: 1;
+}
+
+.flexbox-iteeeeeeem-2{
+    min-height: 200px;
+    flex-grow: 1;
+}
+
+.flexbox-iteeeeeeem-3{
+    min-height: 200px;
+    flex-grow: 1;
+}
+
+/* **********References****** */
+
+.flexbox-containeeeeeeeer {
+    display: flex;
+    justify-content: space-between;
+    width: 400 px;
+    height: 100px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    align-items: center; 
+    flex-direction: column;
+}
+
+.flexbox-iteeeeeeeem {
+    text-decoration: none;
+    color: white;
+}
+
+.flexbox-iteeeeeeeem-1 {
+    color: white;
+    width: 300px;
+    height: 30px;
+    margin-left: 25px 60px;
+    padding: 5px;
+    border: 3px solid #4BBAB1;
+    border-radius: 10px;
+    background-color: #4BBAB1;
+    text-align: center;
+    box-shadow: white 8px 8px;
+}
+
+.flexbox-iteeeeeeeem-2 {
+    color: white;
+    width: 300px;
+    height: 30px;
+    margin: 20px;
+    padding: 5px;
+    border: 3px solid #4bbab1;
+    border-radius: 10px;
+    background-color: #4bbab1;
+    text-align: center;
+    box-shadow: white 8px 8px;
+}
+
+.line1 {
+    width: 90%;
+    height: 2px;
+    border: 1px solid #4BBAB1;
+    margin: auto;
+    background-color: #4BBAB1;
+    border-radius: 10px;
+}
+
+.line4 {
+    width: 90%;
+    height: 2px;
+    border: 1px solid #4BBAB1;
+    margin: auto;
+    background-color: #4BBAB1;
+    border-radius: 10px;
+}
+
+/* *********Copyrights******* */
+
+.Copyrights {
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    margin: auto;
+    margin-top: 60px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+    align-content: center;
 }
 
 /* css du formulaire contact */
@@ -369,4 +667,9 @@ button {
 .peace {
     text-align: right;
     padding-right: 5%;
+}
+@media  screen and (max-width:700px) {
+    .flexbox-containeeer, .flexbox-containeeeer, .flexbox-containeeeeer, .flexbox-containeeeeeer, .flexbox-containeeeeeeer{
+        flex-wrap: wrap;
+    }
 }
