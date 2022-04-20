@@ -23,6 +23,13 @@
     display: block;
     } 
 
+.navbar-menu:hover {
+        transform: scale(1.05);
+    }
+.navbar-menu{
+        transition: .3s;
+    }
+
 /* .whitebar ::after {
 color: white;
 width: 50px;
@@ -44,18 +51,8 @@ border: 3px solid turquoise;
     text-align: center;
     background-color: #4BBAB1;
     box-shadow: white 8px 8px;
-    transition: transform .4s;
+    transition: .4s;
     }
-
-.home-tab:hover .navbar-menu {
-    transform: scale(1.05); 
-    background: red;
-}
-
-.home-tab {
-    transition: 0,3s;
-    color: #F3F3F3;
-}
 
 /* ************body*********** */
 
@@ -110,42 +107,61 @@ border: 3px solid turquoise;
 .flexbox-container {
     display: flex;
     width: 400 px;
-    height: 100px;
+    height: 50px;
     border: 3px solid #4BBAB1;
     margin-bottom: 30px;
     border-radius: 20px;
 }
 
 .flexbox-item {
-    width: 200px;
+    width: 20px;
     margin: 10px;
-    border: 3px solid #4BBAB1;
-    background-color: white;
     border-radius: 20px;
+    transition: .3s;
+}
+
+.flexbox-item:hover{
+    transform: scale(1.5);
+    cursor:pointer
 }
 
 .flexbox-item-1{
-    min-height: 50px;
+    min-height: 10px;
     flex-grow: 1;
 }
 
 .flexbox-item-2{
-    min-height: 50px;
+    min-height: 10px;
     flex-grow: 1;
 }
 
 .flexbox-item-3{
-    min-height: 50px;
+    min-height: 10px;
     flex-grow: 1;
 }
 
 .flexbox-item-4 {
-    min-height: 50px;
+    min-height: 10px;
     flex-grow: 1;
 }
 
 .flexbox-item-5 {
-    min-height: 50px;
+    min-height: 10px;
+    flex-grow: 1;
+}
+
+.flexbox-item-6  {
+    min-height: 10px;
+    flex-grow: 1;
+}
+
+.flexbox-item-7  {
+    min-height: 10px;
+    flex-grow: 1;
+}
+
+.flexbox-item-8  {
+    min-height: 10px;
     flex-grow: 1;
 }
 
@@ -182,6 +198,13 @@ a {
     background-color: #4BBAB1;
     text-align: center;
     box-shadow: white 8px 8px;
+}
+
+.flexbox-iteem:hover {
+    transform: scale(1.05);
+}
+.flexbox-iteem{
+    transition: .3s;
 }
 
 .flexbox-iteem-2 {
@@ -347,12 +370,34 @@ a {
     border-radius: 10px;
     background-image: url(/Users/imacg1/Documents/Portfolio/Images/fc381a30cfa3539cc71adaa3edcdcdcc.jpg);
     background-size:cover;
+    position: relative;
 }
 
 .flexbox-iteeeem-1{
     min-height: 200px;
     flex-grow: 1;
     box-shadow: #4BBAB1 8px 8px;
+    text-align: center;
+}
+.project-title1 {
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.flexbox-iteeeem-b1 {
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    margin: 20px;
+    padding: 5px;
+    border: 3px solid #4BBAB1;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #4BBAB1;
+    box-shadow: white 8px 8px;
+    position: absolute;
+    bottom: 10px;
+    right: 3px;
 }
 
 .flexbox-iteeeem-2{
@@ -525,7 +570,7 @@ a {
     margin-top: 60px;
     padding: 10px;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 100px;
     align-content: center;
 }
 
@@ -535,7 +580,7 @@ a {
     height: auto;
     margin-bottom: 100px;
     margin-top: 100px;
-    border-radius: 10px;
+    border-radius: 100px;
     margin: 100px;
 }
 .flexbox-iteeeeeeem {
@@ -544,7 +589,7 @@ a {
     border: 1px solid #4BBAB1;
     background-color: white;
     border-radius: 100px;
-    border-radius: 10px;
+    border-radius: 100px;
     background-image:url(/Users/imacg1/Documents/Portfolio/Images/Akoua.jpg);
     background-size: cover;
 }
@@ -568,7 +613,7 @@ a {
 .flexbox-containeeeeeeeer {
     display: flex;
     justify-content: space-between;
-    width: 400 px;
+    width: 400px;
     height: 100px;
     margin-bottom: 30px;
     border-radius: 20px;
@@ -581,6 +626,12 @@ a {
     color: white;
 }
 
+.flexbox-iteeeeeeeem:hover {
+    transform: scale(1.05);
+}
+.flexbox-iteeeeeeeem{
+    transition: .3s;
+}
 .flexbox-iteeeeeeeem-1 {
     color: white;
     width: 300px;
