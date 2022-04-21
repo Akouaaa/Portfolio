@@ -366,9 +366,8 @@ a {
     width: 300px;
     margin: 10px;
     border: 1px solid #4BBAB1;
-    background-color: white;
+    background-color: rgb(230, 229, 229);
     border-radius: 10px;
-    background-image: url(/Users/imacg1/Documents/Portfolio/Images/fc381a30cfa3539cc71adaa3edcdcdcc.jpg);
     background-size:cover;
     position: relative;
 }
@@ -378,6 +377,7 @@ a {
     flex-grow: 1;
     box-shadow: #4BBAB1 8px 8px;
     text-align: center;
+    background-image: url(images/projects/bolt\ food.jpg);
 }
 .project-title1 {
     position: absolute;
@@ -400,34 +400,46 @@ a {
     right: 3px;
 }
 
+.flexbox-iteeeem-b1:hover {
+    transform: scale(1.2);
+}
+.flexbox-iteeeem-b1{
+    transition: .3s;
+}
+
 .flexbox-iteeeem-2{
     min-height: 200px;
     flex-grow: 1;
     box-shadow: #4BBAB1 8px 8px;
+    background-image: url(images/projects/jem.png);
 }
 
 .flexbox-iteeeem-3{
     min-height: 200px;
     flex-grow: 1;
     box-shadow: #4BBAB1 8px 8px;
+    background-image: url(images/projects/webtv.png);
 }
 
 .flexbox-iteeeem-4 {
     min-height: 200px;
     flex-grow: 1;
     box-shadow: #4BBAB1 8px 8px;
+    background-image: url(images/projects/actualités.jpeg);
 }
 
 .flexbox-iteeeem-5 {
     min-height: 200px;
     flex-grow: 1;
     box-shadow: #4BBAB1 8px 8px;
+    background-image: url(images/projects/Kissflow_Digital_Workplace.png);
 }
 
 .flexbox-iteeeem-6 {
     min-height: 200px;
     flex-grow: 1;
     box-shadow: #4BBAB1 8px 8px;
+    background-image: url(images/projects/aliBABA.png);
 }
 /* ****************Mon blog******************* */
 
