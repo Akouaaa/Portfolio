@@ -11,7 +11,8 @@
     margin: 0;
     border: 0;
     justify-content: space-between;
- }
+}
+
 .navbar-item {
     background-color: white;
     font-size: 18px;
@@ -21,14 +22,15 @@
     padding: 0.5rem O.75rem;
     position: relative;
     display: block;
-    } 
+}
 
 .navbar-menu:hover {
-        transform: scale(1.05);
-    }
-.navbar-menu{
-        transition: .3s;
-    }
+    transform: scale(1.05);
+}
+
+.navbar-menu {
+    transition: .3s;
+}
 
 /* .whitebar ::after {
 color: white;
@@ -52,7 +54,24 @@ border: 3px solid turquoise;
     background-color: #4BBAB1;
     box-shadow: white 8px 8px;
     transition: .4s;
+}
+
+@media (max-width: 1000px) {
+    .navbar {
+        padding: .2rem 0;
+        z-index: auto;
+        justify-self: center;
+        min-height: 3.25rem;
+        -webkit-box-align: stretch;
+        align-items: stretch;
+        display: flex;
+        align-items: center;
+        position: relative;
+        margin: 0;
+        border: 0;
+        justify-content: space-between;
     }
+}
 
 /* ************body*********** */
 
@@ -79,7 +98,7 @@ border: 3px solid turquoise;
 
 .bio-big-title {
     text-align: top;
-    align-items:center;
+    align-items: center;
 }
 
 .bio-text {
@@ -120,22 +139,22 @@ border: 3px solid turquoise;
     transition: .3s;
 }
 
-.flexbox-item:hover{
+.flexbox-item:hover {
     transform: scale(1.5);
-    cursor:pointer
+    cursor: pointer
 }
 
-.flexbox-item-1{
+.flexbox-item-1 {
     min-height: 10px;
     flex-grow: 1;
 }
 
-.flexbox-item-2{
+.flexbox-item-2 {
     min-height: 10px;
     flex-grow: 1;
 }
 
-.flexbox-item-3{
+.flexbox-item-3 {
     min-height: 10px;
     flex-grow: 1;
 }
@@ -150,17 +169,17 @@ border: 3px solid turquoise;
     flex-grow: 1;
 }
 
-.flexbox-item-6  {
+.flexbox-item-6 {
     min-height: 10px;
     flex-grow: 1;
 }
 
-.flexbox-item-7  {
+.flexbox-item-7 {
     min-height: 10px;
     flex-grow: 1;
 }
 
-.flexbox-item-8  {
+.flexbox-item-8 {
     min-height: 10px;
     flex-grow: 1;
 }
@@ -174,7 +193,7 @@ border: 3px solid turquoise;
     height: 100px;
     margin-bottom: 30px;
     border-radius: 20px;
-    align-items: center; 
+    align-items: center;
 }
 
 .flexbox-iteem a {
@@ -203,7 +222,8 @@ a {
 .flexbox-iteem:hover {
     transform: scale(1.05);
 }
-.flexbox-iteem{
+
+.flexbox-iteem {
     transition: .3s;
 }
 
@@ -228,6 +248,7 @@ a {
     background-color: #4BBAB1;
     border-radius: 10px;
 }
+
 /* .flexbox-containeer
 {
     display: flex;
@@ -266,7 +287,7 @@ a {
     text-align: center;
     width: 400px;
     height: 50px;
-    border: 3px solid #4BBAB1; 
+    border: 3px solid #4BBAB1;
     margin: auto;
     margin-top: 60px;
     padding: 10px;
@@ -302,7 +323,7 @@ a {
     padding: 20px;
 }
 
-.flexbox-iteeem ul{
+.flexbox-iteeem ul {
     list-style: none;
 }
 
@@ -314,17 +335,18 @@ a {
     color: #4BBAB1;
     ;
 }
-.flexbox-iteeem-1{
+
+.flexbox-iteeem-1 {
     min-height: 400px;
     flex-grow: 1;
 }
 
-.flexbox-iteeem-2{
+.flexbox-iteeem-2 {
     min-height: 400px;
     flex-grow: 1;
 }
 
-.flexbox-iteeem-3{
+.flexbox-iteeem-3 {
     min-height: 400px;
     flex-grow: 1;
 }
@@ -337,13 +359,14 @@ a {
     background-color: #4BBAB1;
     border-radius: 10px;
 }
+
 /* *************My projects******** */
 
 .projects-tittle {
     text-align: center;
     width: 400px;
     height: 50px;
-    border: 3px solid #4BBAB1; 
+    border: 3px solid #4BBAB1;
     margin: auto;
     margin-top: 60px;
     padding: 10px;
@@ -368,22 +391,24 @@ a {
     border: 1px solid #4BBAB1;
     background-color: rgb(230, 229, 229);
     border-radius: 10px;
-    background-size:cover;
+    background-size: cover;
     position: relative;
 }
 
-.flexbox-iteeeem-1{
+.flexbox-iteeeem-1 {
     min-height: 200px;
     flex-grow: 1;
     box-shadow: #4BBAB1 8px 8px;
     text-align: center;
     background-image: url(images/projects/bolt\ food.jpg);
 }
+
 .project-title1 {
     position: absolute;
     padding-top: 50px;
     padding-left: 20px;
 }
+
 .flexbox-iteeeem-b1 {
     color: white;
     text-decoration: none;
@@ -403,18 +428,19 @@ a {
 .flexbox-iteeeem-b1:hover {
     transform: scale(1.2);
 }
-.flexbox-iteeeem-b1{
+
+.flexbox-iteeeem-b1 {
     transition: .3s;
 }
 
-.flexbox-iteeeem-2{
+.flexbox-iteeeem-2 {
     min-height: 200px;
     flex-grow: 1;
     box-shadow: #4BBAB1 8px 8px;
     background-image: url(images/projects/jem.png);
 }
 
-.flexbox-iteeeem-3{
+.flexbox-iteeeem-3 {
     min-height: 200px;
     flex-grow: 1;
     box-shadow: #4BBAB1 8px 8px;
@@ -441,9 +467,10 @@ a {
     box-shadow: #4BBAB1 8px 8px;
     background-image: url(images/projects/aliBABA.png);
 }
+
 /* ****************Mon blog******************* */
 
-.blog-tittle {
+/* .blog-tittle {
     text-align: center;
     width: 400px;
     height: 50px;
@@ -454,6 +481,7 @@ a {
     border-radius: 10px;
     align-content: center;
 }
+
 .flexbox-containeeeeer {
     display: flex;
     width: 400 px;
@@ -471,7 +499,7 @@ a {
     background-color: white;
 }
 
-.flexbox-iteeeeem-1{
+.flexbox-iteeeeem-1 {
     min-height: 200px;
     flex-grow: 1;
     box-shadow: #4BBAB1 8px 8px;
@@ -479,7 +507,7 @@ a {
     background-size: cover;
 }
 
-.flexbox-iteeeeem-2{
+.flexbox-iteeeeem-2 {
     min-height: 200px;
     flex-grow: 1;
     box-shadow: #4BBAB1 8px 8px;
@@ -487,7 +515,7 @@ a {
     background-size: cover;
 }
 
-.flexbox-iteeeeem-3{
+.flexbox-iteeeeem-3 {
     min-height: 200px;
     flex-grow: 1;
     box-shadow: #4BBAB1 8px 8px;
@@ -495,7 +523,7 @@ a {
     background-size: cover;
 }
 
-.flexbox-iteeeeem-4{
+.flexbox-iteeeeem-4 {
     min-height: 200px;
     flex-grow: 1;
     box-shadow: #4BBAB1 8px 8px;
@@ -503,13 +531,13 @@ a {
     background-size: cover;
 }
 
-.flexbox-iteeeeem-5{
+.flexbox-iteeeeem-5 {
     min-height: 200px;
     flex-grow: 1;
     box-shadow: #4BBAB1 8px 8px;
-    background-image:url(/Users/imacg1/Documents/Portfolio/Images/ec7f8908f0bb2ad30b92a02151d9ff9d.jpg);
+    background-image: url(/Users/imacg1/Documents/Portfolio/Images/ec7f8908f0bb2ad30b92a02151d9ff9d.jpg);
     background-size: cover;
-}
+} */
 
 .line3 {
     width: 90%;
@@ -526,7 +554,7 @@ a {
     text-align: center;
     width: 400px;
     height: 50px;
-    border: 3px solid #4BBAB1; 
+    border: 3px solid #4BBAB1;
     margin: auto;
     margin-top: 60px;
     padding: 10px;
@@ -534,6 +562,7 @@ a {
     border-radius: 10px;
     align-content: center;
 }
+
 .flexbox-containeeeeeer {
     display: flex;
     width: 400 px;
@@ -543,6 +572,7 @@ a {
     border-radius: 10px;
     margin: 100px;
 }
+
 .flexbox-iteeeeeem {
     width: 200px;
     margin: 10px;
@@ -550,24 +580,25 @@ a {
     background-color: white;
     border-radius: 10px;
 }
-.flexbox-iteeeeeem-1{
+
+.flexbox-iteeeeeem-1 {
     min-height: 200px;
     flex-grow: 1;
-    background-image: url(/Users/imacg1/Documents/Portfolio/Images/google.png);
+    background-image: url(/Users/imacg1/Documents/Portfolio/Images/Certification/1519903949772.jpeg);
     background-size: cover;
 }
 
-.flexbox-iteeeeeem-2{
+.flexbox-iteeeeeem-2 {
     min-height: 200px;
     flex-grow: 1;
-    background-image: url(/Users/imacg1/Documents/Portfolio/Images/ibm.png);
-    background-size:cover;
+    background-image: url(/Users/imacg1/Documents/Portfolio/Images/Certification/logo-google.jpg);
+    background-size: cover;
 }
 
-.flexbox-iteeeeeem-3{
+.flexbox-iteeeeeem-3 {
     min-height: 200px;
     flex-grow: 1;
-    background-image: url(/Users/imacg1/Documents/Portfolio/Images/vignette_simplon.png);
+    background-image: url(/Users/imacg1/Documents/Portfolio/Images/Certification/learning.jpeg);
     background-size: cover;
 }
 
@@ -577,12 +608,12 @@ a {
     text-align: center;
     width: 400px;
     height: 50px;
-    border: 3px solid #4BBAB1; 
+    border: 3px solid #4BBAB1;
     margin: auto;
     margin-top: 60px;
     padding: 10px;
     align-items: center;
-    border-radius: 100px;
+    border-radius: 10px;
     align-content: center;
 }
 
@@ -595,6 +626,7 @@ a {
     border-radius: 100px;
     margin: 100px;
 }
+
 .flexbox-iteeeeeeem {
     width: 200px;
     margin: 10px;
@@ -602,34 +634,36 @@ a {
     background-color: white;
     border-radius: 100px;
     border-radius: 100px;
-    background-image:url(/Users/imacg1/Documents/Portfolio/Images/Akoua.jpg);
     background-size: cover;
 }
-.flexbox-iteeeeeeem-1{
+
+.flexbox-iteeeeeeem-1 {
     min-height: 200px;
     flex-grow: 1;
+    background-image: url(/Users/imacg1/Documents/Portfolio/Images/References/Ba.png);
 }
 
-.flexbox-iteeeeeeem-2{
+.flexbox-iteeeeeeem-2 {
     min-height: 200px;
     flex-grow: 1;
+    background-image: url(/Users/imacg1/Documents/Portfolio/Images/References/Diarra.png);
 }
 
-.flexbox-iteeeeeeem-3{
+.flexbox-iteeeeeeem-3 {
     min-height: 200px;
     flex-grow: 1;
+    background-image: url(/Users/imacg1/Documents/Portfolio/Images/References/Birante.png);
 }
 
-/* **********References****** */
+/* **********Down****** */
 
 .flexbox-containeeeeeeeer {
     display: flex;
     justify-content: space-between;
-    width: 400px;
     height: 100px;
     margin-bottom: 30px;
     border-radius: 20px;
-    align-items: center; 
+    align-items: center;
     flex-direction: column;
 }
 
@@ -641,9 +675,11 @@ a {
 .flexbox-iteeeeeeeem:hover {
     transform: scale(1.05);
 }
-.flexbox-iteeeeeeeem{
+
+.flexbox-iteeeeeeeem {
     transition: .3s;
 }
+
 .flexbox-iteeeeeeeem-1 {
     color: white;
     width: 300px;
@@ -743,8 +779,8 @@ button {
 body {
     /* justify-content: center; */
     /* margin-top: 15%; */
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 3%;
+    margin-right: 3%;
     height: 100%;
 }
 
@@ -776,8 +812,17 @@ button {
     text-align: right;
     padding-right: 5%;
 }
-@media  screen and (max-width:700px) {
-    .flexbox-containeeer, .flexbox-containeeeer, .flexbox-containeeeeer, .flexbox-containeeeeeer, .flexbox-containeeeeeeer{
+
+.logo-image {
+    align-content: center;
+}
+
+@media screen and (max-width:400px) {
+
+    .flexbox-containeeer,
+    .flexbox-containeeeer,
+    .flexbox-containeeeeeer,
+    .flexbox-containeeeeeeer {
         flex-wrap: wrap;
     }
 }
