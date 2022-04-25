@@ -451,21 +451,21 @@ a {
     min-height: 200px;
     flex-grow: 1;
     box-shadow: #4BBAB1 8px 8px;
-    background-image: url(images/projects/actualités.jpeg);
+    background-image: url("images/projects/actualités.jpeg");
 }
 
 .flexbox-iteeeem-5 {
     min-height: 200px;
     flex-grow: 1;
     box-shadow: #4BBAB1 8px 8px;
-    background-image: url(images/projects/Kissflow_Digital_Workplace.png);
+    background-image: url("images/projects/Kissflow_Digital_Workplace.png");
 }
 
 .flexbox-iteeeem-6 {
     min-height: 200px;
     flex-grow: 1;
     box-shadow: #4BBAB1 8px 8px;
-    background-image: url(images/projects/aliBABA.png);
+    background-image: url("images/projects/aliBABA.png");
 }
 
 /* ****************Mon blog******************* */
