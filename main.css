@@ -285,7 +285,7 @@ a {
 
 .skills-tittle {
     text-align: center;
-    width: 400px;
+    width: auto;
     height: 50px;
     border: 3px solid #4BBAB1;
     margin: auto;
@@ -364,7 +364,7 @@ a {
 
 .projects-tittle {
     text-align: center;
-    width: 400px;
+    width: auto;
     height: 50px;
     border: 3px solid #4BBAB1;
     margin: auto;
@@ -382,7 +382,7 @@ a {
     margin-bottom: 100px;
     margin-top: 100px;
     border-radius: 10px;
-    margin: 100px;
+    margin: 25px;
 }
 
 .flexbox-iteeeem {
@@ -412,7 +412,7 @@ a {
 .flexbox-iteeeem-b1 {
     color: white;
     text-decoration: none;
-    width: 100px;
+    width: auto;
     margin: 20px;
     padding: 5px;
     border: 3px solid #4BBAB1;
@@ -552,7 +552,7 @@ a {
 
 .certification-tittle {
     text-align: center;
-    width: 400px;
+    width: auto;
     height: 50px;
     border: 3px solid #4BBAB1;
     margin: auto;
@@ -570,7 +570,7 @@ a {
     margin-bottom: 100px;
     margin-top: 100px;
     border-radius: 10px;
-    margin: 100px;
+    margin: 25px;
 }
 
 .flexbox-iteeeeeem {
@@ -585,28 +585,34 @@ a {
     min-height: 200px;
     flex-grow: 1;
     background-image: url(/Users/imacg1/Documents/Portfolio/Images/Certification/1519903949772.jpeg);
-    background-size: cover;
+    background-size: 200PX;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .flexbox-iteeeeeem-2 {
     min-height: 200px;
     flex-grow: 1;
     background-image: url(/Users/imacg1/Documents/Portfolio/Images/Certification/logo-google.jpg);
-    background-size: cover;
+    background-size: 200PX;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .flexbox-iteeeeeem-3 {
     min-height: 200px;
     flex-grow: 1;
     background-image: url(/Users/imacg1/Documents/Portfolio/Images/Certification/learning.jpeg);
-    background-size: cover;
+    background-size: 200PX;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* ***************References********** */
 
 .References-tittle {
     text-align: center;
-    width: 400px;
+    width: auto;
     height: 50px;
     border: 3px solid #4BBAB1;
     margin: auto;
@@ -634,25 +640,33 @@ a {
     background-color: white;
     border-radius: 100px;
     border-radius: 100px;
-    background-size: cover;
 }
 
 .flexbox-iteeeeeeem-1 {
     min-height: 200px;
     flex-grow: 1;
     background-image: url(/Users/imacg1/Documents/Portfolio/Images/References/Ba.png);
+    background-size: 200PX;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .flexbox-iteeeeeeem-2 {
     min-height: 200px;
     flex-grow: 1;
     background-image: url(/Users/imacg1/Documents/Portfolio/Images/References/Diarra.png);
+    background-size: 200PX;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .flexbox-iteeeeeeem-3 {
     min-height: 200px;
     flex-grow: 1;
     background-image: url(/Users/imacg1/Documents/Portfolio/Images/References/Birante.png);
+     background-size: 200PX;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* **********Down****** */
@@ -728,7 +742,7 @@ a {
 
 .Copyrights {
     text-align: center;
-    width: 400px;
+    width: auto;
     height: 50px;
     margin: auto;
     margin-top: 60px;
@@ -743,7 +757,7 @@ a {
 body {
     margin-left: 15%;
     margin-right: 15%;
-    height: 100%;
+    height: auto;
 }
 
 body h1 {
@@ -817,7 +831,7 @@ button {
     align-content: center;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:700px) {
 
     .flexbox-containeeer,
     .flexbox-containeeeer,
