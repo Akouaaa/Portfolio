@@ -400,7 +400,7 @@ a {
     flex-grow: 1;
     box-shadow: #4BBAB1 8px 8px;
     text-align: center;
-    background-image: url("images/projects/bolt\ food.jpg");
+    background-image: url(Images/projects/bolt\food.jpg);
 }
 
 .project-title1 {
@@ -437,35 +437,35 @@ a {
     min-height: 200px;
     flex-grow: 1;
     box-shadow: #4BBAB1 8px 8px;
-    background-image: url(images/projects/jem.png);
+    background-image: url(Images/projects/jem.png);
 }
 
 .flexbox-iteeeem-3 {
     min-height: 200px;
     flex-grow: 1;
     box-shadow: #4BBAB1 8px 8px;
-    background-image: url(images/projects/webtv.png);
+    background-image: url(Images/projects/webtv.png);
 }
 
 .flexbox-iteeeem-4 {
     min-height: 200px;
     flex-grow: 1;
     box-shadow: #4BBAB1 8px 8px;
-    background-image: url("images/projects/actualités.jpeg");
+    background-image: url(Images/projects/actualités.jpeg);
 }
 
 .flexbox-iteeeem-5 {
     min-height: 200px;
     flex-grow: 1;
     box-shadow: #4BBAB1 8px 8px;
-    background-image: url("images/projects/Kissflow_Digital_Workplace.png");
+    background-image: url(Images/projects/Kissflow_Digital_Workplace.png);
 }
 
 .flexbox-iteeeem-6 {
     min-height: 200px;
     flex-grow: 1;
     box-shadow: #4BBAB1 8px 8px;
-    background-image: url("images/projects/aliBABA.png");
+    background-image: url(Images/projects/aliBABA.png);
 }
 
 /* ****************Mon blog******************* */
@@ -584,7 +584,7 @@ a {
 .flexbox-iteeeeeem-1 {
     min-height: 200px;
     flex-grow: 1;
-    background-image: url(/Users/imacg1/Documents/Portfolio/Images/Certification/1519903949772.jpeg);
+    background-image: url(Images/Certification/1519903949772.jpeg);
     background-size: 200PX;
     background-repeat: no-repeat;
     background-position: center;
@@ -593,7 +593,7 @@ a {
 .flexbox-iteeeeeem-2 {
     min-height: 200px;
     flex-grow: 1;
-    background-image: url(/Users/imacg1/Documents/Portfolio/Images/Certification/logo-google.jpg);
+    background-image: url(Images/Certification/logo-google.jpg);
     background-size: 200PX;
     background-repeat: no-repeat;
     background-position: center;
@@ -602,7 +602,7 @@ a {
 .flexbox-iteeeeeem-3 {
     min-height: 200px;
     flex-grow: 1;
-    background-image: url(/Users/imacg1/Documents/Portfolio/Images/Certification/learning.jpeg);
+    background-image: url(Images/Certification/learning.jpeg);
     background-size: 200PX;
     background-repeat: no-repeat;
     background-position: center;
@@ -645,8 +645,8 @@ a {
 .flexbox-iteeeeeeem-1 {
     min-height: 200px;
     flex-grow: 1;
-    background-image: url(/Users/imacg1/Documents/Portfolio/Images/References/Ba.png);
-    background-size: 200PX;
+    background-image: url(Images/References/Ba.png);
+    background-size: 200px;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -654,7 +654,7 @@ a {
 .flexbox-iteeeeeeem-2 {
     min-height: 200px;
     flex-grow: 1;
-    background-image: url(/Users/imacg1/Documents/Portfolio/Images/References/Diarra.png);
+    background-image: url(Images/References/Diarra.png);
     background-size: 200PX;
     background-repeat: no-repeat;
     background-position: center;
@@ -663,7 +663,7 @@ a {
 .flexbox-iteeeeeeem-3 {
     min-height: 200px;
     flex-grow: 1;
-    background-image: url(/Users/imacg1/Documents/Portfolio/Images/References/Birante.png);
+    background-image: url(Images/References/Birante.png);
      background-size: 200PX;
     background-repeat: no-repeat;
     background-position: center;
